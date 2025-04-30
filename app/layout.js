@@ -1,4 +1,4 @@
-import { GoogleTagManager } from "@next/third-parties/google";
+
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Anushka Jadhav | Portfolio",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Innovative Software Developer & AI Enthusiast with expertise in Full Stack Development, DSA, and AI-driven solutions. Winner of SIH 2024, where I built an AI-powered chatbot using RAG and LLMs to streamline admissions. Passionate about scalable solutions, system design, and competitive programming, with a drive for innovation through emerging technologies and hackathons.loper and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+
     </html>
   );
 }
